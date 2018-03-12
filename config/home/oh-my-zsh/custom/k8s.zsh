@@ -1,5 +1,9 @@
 alias k="kubectl"
 
+# Contexts
+alias kgctx="kubectl config get-contexts"
+alias kuctx="kubectl config use-context"
+
 # Get objects
 alias kg="kubectl get"
 alias kgp="kubectl get pods"
