@@ -1,0 +1,14 @@
+- clean: ['~']
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+  - /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+- link:
+    ~/.gitconfig: 
+      path: config/home/gitconfig
+      force: true
+
+- brewfile:
+    file: Brewfile
+    no-upgrage: true
