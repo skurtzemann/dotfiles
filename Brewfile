@@ -16,3 +16,10 @@ brew "wget"
 brew "yq"
 brew "zsh"
 brew "zsh-completions"
+
+# MacOS Applications
+cask "dashlane"
+cask "gitify"
+cask "gitkraken"
+cask "minikube"
+cask "virtualbox"
