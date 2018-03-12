@@ -2,6 +2,7 @@
 tap "homebrew/core"
 tap "homebrew/bundle"
 
+# Packages
 brew "git"
 brew "git-flow"
 brew "kubernetes-helm"
