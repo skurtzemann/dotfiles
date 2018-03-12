@@ -8,6 +8,7 @@
     ~/.gitconfig: 
       path: config/home/gitconfig
       force: true
+    ~/.zshrc: config/home/zshrc
 
 - brewfile:
     file: Brewfile
