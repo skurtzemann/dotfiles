@@ -3,6 +3,7 @@ tap "homebrew/core"
 tap "homebrew/bundle"
 
 # Packages
+brew "docker-ls"
 brew "git"
 brew "git-flow"
 brew "jq"
