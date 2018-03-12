@@ -1,3 +1,7 @@
+# Repositories
+tap "homebrew/core"
+tap "homebrew/bundle"
+
 brew "git"
 brew "git-flow"
 brew "kubernetes-helm"
