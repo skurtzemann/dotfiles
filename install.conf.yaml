@@ -6,9 +6,12 @@
 
 - link:
     ~/.gitconfig: config/home/gitconfig
-    ~/.zshrc: config/home/zshrc
     ~/.oh-my-zsh/custom: config/home/oh-my-zsh/custom
 
 - brewfile:
     file: Brewfile
     no-upgrage: true
+
+# These links should be created after everything is installed:
+- link:
+    ~/.zshrc: config/home/zshrc
