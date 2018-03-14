@@ -1,3 +1,5 @@
+alias d="docker"
+
 # Cleanup
 function docker-cleanup() {
   EXITED=$(docker ps -q -f status=exited)
