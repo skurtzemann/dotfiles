@@ -3,11 +3,13 @@ tap "caskroom/cask"
 tap "caskroom/fonts"
 tap "homebrew/core"
 tap "homebrew/bundle"
+tap "go-task/tap"
 
 # Packages
 brew "docker-ls"
 brew "git"
 brew "git-flow"
+brew "go-task"
 brew "httpie"
 brew "jq"
 brew "kubernetes-helm"
