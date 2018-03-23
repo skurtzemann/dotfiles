@@ -8,6 +8,7 @@ tap "hairyhenderson/tap"
 
 # Packages
 brew "docker-ls"
+brew "dockutil"
 brew "git"
 brew "git-flow"
 brew "go-task"
