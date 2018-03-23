@@ -23,6 +23,7 @@ brew "zsh"
 brew "zsh-completions"
 
 # MacOS Applications
+cask "anytrans"
 cask "dashlane"
 cask "docker"
 cask "gitify"
