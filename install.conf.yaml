@@ -12,6 +12,10 @@
     file: Brewfile
     no-upgrage: true
 
+- go:
+    - package: github.com/StackExchange/dnscontrol
+      flags: [-u]
+
 # These links should be created after everything is installed:
 - link:
     ~/.zshrc: config/home/zshrc
