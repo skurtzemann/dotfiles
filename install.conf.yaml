@@ -3,6 +3,7 @@
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
   - /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  # - /usr/bin/curl -sSf https://static.rust-lang.org/rustup.sh | sh
 
 - link:
     ~/.gitconfig: config/home/gitconfig
