@@ -52,3 +52,6 @@ klf() {
 
 # Tools
 alias h="helm"
+
+alias kns="kubens"
+alias kx="kubectx"
