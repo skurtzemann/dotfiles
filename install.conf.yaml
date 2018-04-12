@@ -21,6 +21,9 @@
     - package: github.com/roboll/helmfile
       flags: [-u]
 
+# - cargo:
+#     - click
+
 # These links should be created after everything is installed:
 - link:
     ~/.zshrc: config/home/zshrc
