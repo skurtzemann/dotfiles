@@ -52,6 +52,7 @@ klf() {
 
 # Tools
 alias h="helm"
+alias hf="helmfile"
 
 alias kns="kubens"
 alias kx="kubectx"
