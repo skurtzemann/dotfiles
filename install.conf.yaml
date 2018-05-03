@@ -22,7 +22,8 @@
       flags: [-u]
 
 # - cargo:
-#     - click
+#   - bat
+#   - click
 
 # These links should be created after everything is installed:
 - link:
