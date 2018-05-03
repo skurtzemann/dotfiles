@@ -7,6 +7,7 @@ tap "go-task/tap"
 tap "hairyhenderson/tap"
 
 # Packages
+brew "cmake"
 brew "colordiff"
 brew "docker-ls"
 brew "dockutil"
