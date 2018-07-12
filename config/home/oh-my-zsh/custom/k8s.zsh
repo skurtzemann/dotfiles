@@ -16,6 +16,7 @@ alias kdp="kubectl describe pod"
 # Delete
 alias kdel="kubectl delete"
 alias kdelp="kubectl delete pod"
+alias kdelep="kubectl get pods -a | grep Evicted | awk '{print \$1}' | xargs kubectl delete pod --force --grace-period=0"
 
 # Create from a ressource file (imperative mode)
 kc() {
