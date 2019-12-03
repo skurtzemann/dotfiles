@@ -1,0 +1,33 @@
+- defaults:
+    link:
+      force: true
+
+# - brewfile:
+#     file: Brewfile
+
+- shell:
+  - sudo apt-get -y install curl
+  - sudo apt-get -y install zsh
+  - sudo chsh -s /bin/zsh
+  - sudo sh -c config/tools.sh
+  # - sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  # - sudo apt-get -y install fonts-powerline
+  # - sudo apt-get -y install vim
+
+
+# - vscode:
+#     sharat.vscode-brewfile:
+#       status: install
+#       insiders: true
+
+- go:
+    - package: github.com/jtyr/gbt/cmd/gbt
+      flags: [-u]
+      stdout: true
+      stderr: true
+
+- link:
+    ~/.zshrc: config/home/zshrc
+    ~/.oh-my-zsh/custom: config/home/oh-my-zsh/custom
+    ~/.tmux.conf: config/home/tmux.conf
+    ~/.tmux.conf.local: config/home/tmux.conf.local
