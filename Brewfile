@@ -6,6 +6,7 @@ tap "goreleaser/tap"
 
 # Packages
 brew "alphabetum/taps/hosts"
+brew "berglas"
 brew "direnv"
 brew "dive"
 brew "dnscontrol"
