@@ -68,3 +68,6 @@ alias kns="kubens"
 alias kx="kubectx"
 
 alias o="octant"
+
+# add krew
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
