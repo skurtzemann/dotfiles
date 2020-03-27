@@ -71,3 +71,6 @@ alias o="octant"
 
 # add krew
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+
+# Add kubectl autocompletion
+source <(kubectl completion zsh)
