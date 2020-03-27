@@ -53,6 +53,10 @@ klf() {
 	kubectl logs -f $1
 }
 
+# Create an alpine container with sh
+kbash(){
+	kubectl run bash --rm --restart=Never -i --tty --image=alpine -- sh
+}
 
 # Tools
 alias c="click"
