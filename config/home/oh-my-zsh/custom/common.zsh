@@ -2,8 +2,6 @@ alias b="brew"
 
 alias cdsp="cd $HOME/Work/Sources/Private/"
 
-alias cl="gcloud"
-
 alias s="sudo"
 alias t="task"
 alias u="source ~/.zshrc"

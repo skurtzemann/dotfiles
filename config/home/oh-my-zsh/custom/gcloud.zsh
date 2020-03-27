@@ -1,3 +1,5 @@
+alias cl="gcloud"
+
 alias gcp-cfg-current="gcloud config configurations list | grep True"
 
 gcp-cfg-set() {
