@@ -14,5 +14,6 @@ alias ll="ls -al"
 
 alias hosts="sudo /home/linuxbrew/.linuxbrew/bin/hosts"
 
+alias xclip="xclip -selection c"
 
 export ACCESS_DIR="$HOME/Work/Proximis/Access"
