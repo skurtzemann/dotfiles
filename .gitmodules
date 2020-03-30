@@ -13,3 +13,4 @@
 [submodule "private"]
 	path = private
 	url = git@github.com:skurtzemann/dotfiles.private.git
+	branch = develop
