@@ -2,16 +2,16 @@
   "entries": {
     "tap": {
       "alphabetum/taps": {
-        "revision": "a71596d09c606085ee67533f2caa2b94568cb5d7"
+        "revision": "4c778c5910f869a2f569e9bd0bb5f1cecdc2b794"
       },
       "derailed/k9s": {
-        "revision": "392cf0609627ed0076a565db6c591ef4c4290385"
+        "revision": "55a3125d16306b675cd12b9afe715eb638a357c7"
       },
       "homebrew/cask-fonts": {
-        "revision": "f0776bb08ddae1720861e2586aeaf7cbee1bbf16"
+        "revision": "4115308dec3853f8a135e820f40b64104e7ac7b3"
       },
       "goreleaser/tap": {
-        "revision": "171e56ef2e3e8b60b40f3c3d53ca0649b61101a6"
+        "revision": "db089c7970918aceca2f41accec67497e98f13f3"
       },
       "ktr0731/evans": {
         "revision": "d800afe9b27ceb7b93d156c2d69056a024c167a2"
@@ -95,52 +95,52 @@
         }
       },
       "dnscontrol": {
-        "version": "2.11",
+        "version": "3.0.0",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/home/linuxbrew/.linuxbrew",
           "files": {
             "catalina": {
-              "url": "https://linuxbrew.bintray.com/bottles/dnscontrol-2.11.catalina.bottle.tar.gz",
-              "sha256": "4d5b2d3f3a58c4fa17a5d05d900cf964f55d79fa33154feb6ea31748073359b8"
+              "url": "https://linuxbrew.bintray.com/bottles/dnscontrol-3.0.0.catalina.bottle.tar.gz",
+              "sha256": "31659d8d24a42a4198cee85996f088371a690a117a7180f4fb66b9a91a95368e"
             },
             "mojave": {
-              "url": "https://linuxbrew.bintray.com/bottles/dnscontrol-2.11.mojave.bottle.tar.gz",
-              "sha256": "2bdcefeda90832c5a1726f0f9002692d2aa609d70e2b0ce9dc1cdda6423794ff"
+              "url": "https://linuxbrew.bintray.com/bottles/dnscontrol-3.0.0.mojave.bottle.tar.gz",
+              "sha256": "1961f8e932a9c45ce3d8875ec79a748f771abda2d837e5cf27ffc82d2c957fe0"
             },
             "high_sierra": {
-              "url": "https://linuxbrew.bintray.com/bottles/dnscontrol-2.11.high_sierra.bottle.tar.gz",
-              "sha256": "00f3cd3611e52eadea634d3300c41f5f529dcbc3ae4127a96c5419e5dc9da956"
+              "url": "https://linuxbrew.bintray.com/bottles/dnscontrol-3.0.0.high_sierra.bottle.tar.gz",
+              "sha256": "95eefb8221d2010d797b439c8bce6de4f72a1d0dab7a83bee9f22384e63f54ce"
             },
             "x86_64_linux": {
-              "url": "https://linuxbrew.bintray.com/bottles/dnscontrol-2.11.x86_64_linux.bottle.tar.gz",
-              "sha256": "5182539164a52ffd0d5e0f80de38e714ef84552b86858f6e7d2b7c1b5190def5"
+              "url": "https://linuxbrew.bintray.com/bottles/dnscontrol-3.0.0.x86_64_linux.bottle.tar.gz",
+              "sha256": "47078918ab839ada619a09a5d4a71fef80ee457556f30384243eebfe96cf7cb1"
             }
           }
         }
       },
       "derailed/k9s/k9s": null,
       "docker-compose": {
-        "version": "1.25.4",
+        "version": "1.25.4_1",
         "bottle": {
           "cellar": ":any",
           "prefix": "/home/linuxbrew/.linuxbrew",
           "files": {
             "catalina": {
-              "url": "https://linuxbrew.bintray.com/bottles/docker-compose-1.25.4.catalina.bottle.tar.gz",
-              "sha256": "ebe367f2fb704314ae2875d865c40c9b8b1e870cf888742c99216356f114961f"
+              "url": "https://linuxbrew.bintray.com/bottles/docker-compose-1.25.4_1.catalina.bottle.tar.gz",
+              "sha256": "463bd4a012d5bed971040db53b737bd4c89ae9ee05a14d4d738cf06e9bebd9f9"
             },
             "mojave": {
-              "url": "https://linuxbrew.bintray.com/bottles/docker-compose-1.25.4.mojave.bottle.tar.gz",
-              "sha256": "54f367f476359b1a12e8b0f23fc9a7583732f2bd678ab031fd6ea980350dbad3"
+              "url": "https://linuxbrew.bintray.com/bottles/docker-compose-1.25.4_1.mojave.bottle.tar.gz",
+              "sha256": "e3572703ef4cf05000d0eac018b0a01d2d82d7a54941667f2581bfd26e12959f"
             },
             "high_sierra": {
-              "url": "https://linuxbrew.bintray.com/bottles/docker-compose-1.25.4.high_sierra.bottle.tar.gz",
-              "sha256": "ef81d6ad5b72e9fc2233e0f314d7b71eb20a9641e763957a2a1b2adc594791cf"
+              "url": "https://linuxbrew.bintray.com/bottles/docker-compose-1.25.4_1.high_sierra.bottle.tar.gz",
+              "sha256": "3c74f2f820c364a88e66667a372fa0c5bf06516e8f0e234b70990cc1cf99fd80"
             },
             "x86_64_linux": {
-              "url": "https://linuxbrew.bintray.com/bottles/docker-compose-1.25.4.x86_64_linux.bottle.tar.gz",
-              "sha256": "689be5d86590c1d11a550932864a56ba1161cc86f38db133c66048a6a55c857b"
+              "url": "https://linuxbrew.bintray.com/bottles/docker-compose-1.25.4_1.x86_64_linux.bottle.tar.gz",
+              "sha256": "cbedf382149acd07554557f4bde23aa88204e4f9ef36da7e2c5aed91607beb45"
             }
           }
         }
@@ -263,26 +263,26 @@
         }
       },
       "helmfile": {
-        "version": "0.102.0",
+        "version": "0.104.0",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/home/linuxbrew/.linuxbrew",
           "files": {
             "catalina": {
-              "url": "https://linuxbrew.bintray.com/bottles/helmfile-0.102.0.catalina.bottle.tar.gz",
-              "sha256": "6709a260fd7639eb62a31f62ed2a1b741c81639f18d04ac233dd46e05281964d"
+              "url": "https://linuxbrew.bintray.com/bottles/helmfile-0.104.0.catalina.bottle.tar.gz",
+              "sha256": "066c5b8abf1b4a20c00c9499726f1960520da4d1a89c9a3010dc739de8ab08ca"
             },
             "mojave": {
-              "url": "https://linuxbrew.bintray.com/bottles/helmfile-0.102.0.mojave.bottle.tar.gz",
-              "sha256": "7e00ad411ab503306b2c3bb4c8d2939801ac2362b327758b8b78f365cb2c5060"
+              "url": "https://linuxbrew.bintray.com/bottles/helmfile-0.104.0.mojave.bottle.tar.gz",
+              "sha256": "337b3e6215fb9f8027da9de3b7f9710d3e6ffebfefd2dc17e7dc37d0b3d3bae5"
             },
             "high_sierra": {
-              "url": "https://linuxbrew.bintray.com/bottles/helmfile-0.102.0.high_sierra.bottle.tar.gz",
-              "sha256": "7ca37d260083d38422d780e150f41d0cbcc01987bdedfb27dfcecdccf36c1650"
+              "url": "https://linuxbrew.bintray.com/bottles/helmfile-0.104.0.high_sierra.bottle.tar.gz",
+              "sha256": "e1cac5e36e8d6d8951bee0fe26e7a45e6edfc3d64d994bc097812c8ec934af85"
             },
             "x86_64_linux": {
-              "url": "https://linuxbrew.bintray.com/bottles/helmfile-0.102.0.x86_64_linux.bottle.tar.gz",
-              "sha256": "5c8f50b322e393e812d117400ca2047d81fd96690f531581ecdbf43ba5419681"
+              "url": "https://linuxbrew.bintray.com/bottles/helmfile-0.104.0.x86_64_linux.bottle.tar.gz",
+              "sha256": "c2b1c502b458225b07def3a2ebce79527fbc12a70bb1c441a092af5e3363a44e"
             }
           }
         }
@@ -318,26 +318,26 @@
       },
       "kubectl": null,
       "helm@2": {
-        "version": "2.16.3",
+        "version": "2.16.5",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/home/linuxbrew/.linuxbrew",
           "files": {
             "catalina": {
-              "url": "https://linuxbrew.bintray.com/bottles/helm@2-2.16.3.catalina.bottle.tar.gz",
-              "sha256": "335da9e7cd9c44c7190425f37a1aeec376aee63370e8b563483dbf5cde8cb40e"
+              "url": "https://linuxbrew.bintray.com/bottles/helm@2-2.16.5.catalina.bottle.tar.gz",
+              "sha256": "bde48a20c099114118e3c41c2bd1273ff1676375899c24ce26d12a695c45cbf7"
             },
             "mojave": {
-              "url": "https://linuxbrew.bintray.com/bottles/helm@2-2.16.3.mojave.bottle.tar.gz",
-              "sha256": "8d5b557f8102443e5a01d2c031722775c1c815648e894b8644515e25890fdac5"
+              "url": "https://linuxbrew.bintray.com/bottles/helm@2-2.16.5.mojave.bottle.tar.gz",
+              "sha256": "36d8479ab5013f3e736c9e51d3b3f80851d9c6abde490d423c3d18090896ce5d"
             },
             "high_sierra": {
-              "url": "https://linuxbrew.bintray.com/bottles/helm@2-2.16.3.high_sierra.bottle.tar.gz",
-              "sha256": "51ddd1349b7f5d656fe5a9250303edfa26796ed1ad5cd81228c5a311f42288d5"
+              "url": "https://linuxbrew.bintray.com/bottles/helm@2-2.16.5.high_sierra.bottle.tar.gz",
+              "sha256": "322938ad3e773e54b609d6815b059061521676bef15b119537597f2ec4e08dc4"
             },
             "x86_64_linux": {
-              "url": "https://linuxbrew.bintray.com/bottles/helm@2-2.16.3.x86_64_linux.bottle.tar.gz",
-              "sha256": "d4df925e0c6b01f264df0f5280aaee352dd55d2f66af4af947d93939b43efdcf"
+              "url": "https://linuxbrew.bintray.com/bottles/helm@2-2.16.5.x86_64_linux.bottle.tar.gz",
+              "sha256": "d7ed8b65b6250d0dcc996b05203c43a6c24ac6f6a52aca0a6db2faa7faf5f5d8"
             }
           }
         }
@@ -397,26 +397,26 @@
         }
       },
       "terraform": {
-        "version": "0.12.23",
+        "version": "0.12.24",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/home/linuxbrew/.linuxbrew",
           "files": {
             "catalina": {
-              "url": "https://linuxbrew.bintray.com/bottles/terraform-0.12.23.catalina.bottle.tar.gz",
-              "sha256": "28e6b6a9a1a536285aed20f7db5793afa7da8cd21bb33be6ab3a8a38cce9f2f4"
+              "url": "https://linuxbrew.bintray.com/bottles/terraform-0.12.24.catalina.bottle.tar.gz",
+              "sha256": "cdfb0e90156ee1bedb30f52a9e260340ff7c08580c12dd35138bf63c01fe1000"
             },
             "mojave": {
-              "url": "https://linuxbrew.bintray.com/bottles/terraform-0.12.23.mojave.bottle.tar.gz",
-              "sha256": "5a457cf5473f4b6a1d5adacc9cfe3a66dbc07b442725db86c561888c98b66cb6"
+              "url": "https://linuxbrew.bintray.com/bottles/terraform-0.12.24.mojave.bottle.tar.gz",
+              "sha256": "2a21a77589673b2064c9fa7587a79a0375d69a8e02f824e5dc22dc960bf2d78b"
             },
             "high_sierra": {
-              "url": "https://linuxbrew.bintray.com/bottles/terraform-0.12.23.high_sierra.bottle.tar.gz",
-              "sha256": "64378d7139315e7a8e2c8aae27b56e0d91448a31f3a9e15bb5790033ae383d49"
+              "url": "https://linuxbrew.bintray.com/bottles/terraform-0.12.24.high_sierra.bottle.tar.gz",
+              "sha256": "1eefeff3899922cc643b82dcc8fec52ce9ea65fd789a73639588e6123239fa0c"
             },
             "x86_64_linux": {
-              "url": "https://linuxbrew.bintray.com/bottles/terraform-0.12.23.x86_64_linux.bottle.tar.gz",
-              "sha256": "e39d0b8b81196e14394b1d559862f8396c143109384af39293d509694ea9ac24"
+              "url": "https://linuxbrew.bintray.com/bottles/terraform-0.12.24.x86_64_linux.bottle.tar.gz",
+              "sha256": "21a1485c264013596d33bd78743f3745b358e0b62b8abe795c9dbc9c5af24c15"
             }
           }
         }
@@ -480,22 +480,22 @@
         }
       },
       "octant": {
-        "version": "0.10.2",
+        "version": "0.11.0",
         "bottle": {
           "cellar": ":any_skip_relocation",
           "prefix": "/home/linuxbrew/.linuxbrew",
           "files": {
             "catalina": {
-              "url": "https://linuxbrew.bintray.com/bottles/octant-0.10.2.catalina.bottle.tar.gz",
-              "sha256": "72bf55dc7fa6d63d6238ee3c39323db780e6d3d17fd08894cc6c47a780c25c5f"
+              "url": "https://linuxbrew.bintray.com/bottles/octant-0.11.0.catalina.bottle.tar.gz",
+              "sha256": "85c7f159ca072efb57e35c99dc1e5a0dedd3184b0ea7b0b63954d8614f9fedee"
             },
             "mojave": {
-              "url": "https://linuxbrew.bintray.com/bottles/octant-0.10.2.mojave.bottle.tar.gz",
-              "sha256": "1a75661c1bb9feaee2ee0fd38935cfcc0e1902a094b989c4b8bd19021152417b"
+              "url": "https://linuxbrew.bintray.com/bottles/octant-0.11.0.mojave.bottle.tar.gz",
+              "sha256": "4dafb4e1124c58682d5922718699466fc6fb2a6cf92a5ccfdbee62b5c3d9681e"
             },
             "high_sierra": {
-              "url": "https://linuxbrew.bintray.com/bottles/octant-0.10.2.high_sierra.bottle.tar.gz",
-              "sha256": "1aa20269795bef2884d76beee0a53f5d86411fa352b7747c7e9ddb2ac819b339"
+              "url": "https://linuxbrew.bintray.com/bottles/octant-0.11.0.high_sierra.bottle.tar.gz",
+              "sha256": "273d873e44b79308bdb8c5d348eac20db84186520a08bcb3576053ca51ab977f"
             }
           }
         }
@@ -596,9 +596,9 @@
   "system": {
     "linux": {
       "Ubuntu 18.04.3 LTS (bionic)": {
-        "HOMEBREW_VERSION": "2.2.10",
+        "HOMEBREW_VERSION": "2.2.11",
         "HOMEBREW_PREFIX": "/home/linuxbrew/.linuxbrew",
-        "Homebrew/linuxbrew-core": "2895f066feb58468d569f180d13bbd374ccfaf81",
+        "Homebrew/linuxbrew-core": "81b88eb6a3a44118a4aba5ee5259b808edc4b4a6",
         "GCC": "7.5.0"
       }
     }
