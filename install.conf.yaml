@@ -31,3 +31,4 @@
     ~/.oh-my-zsh/custom: config/home/oh-my-zsh/custom
     ~/.tmux.conf: config/home/tmux.conf
     ~/.tmux.conf.local: config/home/tmux.conf.local
+    ~/.gmailctl/choukrut@gmail.com/config.jsonnet: private/config/home/gmailctl/choukrut@gmail.com/config.jsonnet
