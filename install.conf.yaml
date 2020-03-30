@@ -2,8 +2,8 @@
     link:
       force: true
 
-# - brewfile:
-#     file: Brewfile
+- brewfile:
+    file: Brewfile
 
 - shell:
   - sudo apt-get -y install curl
