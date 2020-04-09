@@ -1,0 +1,6 @@
+[user]
+	name = Sébastien Kurtzemann
+	email = seb@kurtzemann.fr
+	signingkey = 34E9939DF20AA0B9
+[commit]
+	gpgsign = true

@@ -1,0 +1,9 @@
+[includeIf "gitdir:~/Work/Sources/Proximis/"]
+	path = .gitconfig-proximis
+
+[includeIf "gitdir:~/Work/Sources/Private/github/"]
+	path = .gitconfig-personal
+
+[program]
+	pgp = /usr/bin/gpg
+
