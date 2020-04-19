@@ -1,3 +1,6 @@
 [user]
 	name = Sébastien Kurtzemann
 	email = sebastien.kurtzemann@proximis.com
+	signingkey = 09C883F7A4A44BB0
+[commit]
+	gpgsign = true
