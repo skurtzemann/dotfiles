@@ -31,3 +31,4 @@
     ~/.gitconfig-personal: config/home/gitconfig-personal
     ~/.gitconfig-proximis: config/home/gitconfig-proximis
     ~/.gnupg/gpg.conf: config/home/gpg.conf
+    ~/.kube/kubie.yaml: config/home/kubie.yaml
