@@ -110,10 +110,6 @@ if [ -f '/Users/sebastien/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then
 # PROMPT='$(kube_ps1)'$PROMPT
 # export KUBE_PS1_SYMBOL_USE_IMG=true
 
-# Byobu
-#_byobu_sourced=1 . /usr/bin/byobu-launch 2>/dev/null || true
-tmux
-
 # direnv (https://direnv.net/docs/hook.md)
 eval "$(direnv hook zsh)"
 
