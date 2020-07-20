@@ -1,3 +1,3 @@
-export ACCESS_DIR="$HOME/Work/Proximis/Access"
+export ACCESS_DIR="$HOME/Work/Actency/Access"
 
-alias cds="cd $HOME/Work/Sources/Proximis/"
+alias cds="cd $HOME/Work/Sources/Actency/"
