@@ -7,7 +7,3 @@
 [submodule "dotbot-brewfile"]
 	path = dotbot-brewfile
 	url = https://github.com/sobolevn/dotbot-brewfile.git
-[submodule "private"]
-	path = private
-	url = git@github.com:skurtzemann/dotfiles.private.git
-	branch = develop
