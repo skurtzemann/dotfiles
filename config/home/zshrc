@@ -63,9 +63,9 @@ plugins=(
   git
   colored-man-pages
   docker-compose
-  tmux
-#  zsh-autosuggestions
-#  zsh-syntax-highlighting
+  # tmux
+  # zsh-autosuggestions
+  # zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
