@@ -21,6 +21,8 @@
       stdout: true
       stderr: true
 
+- clean: ['~']
+
 - link:
     ~/.zshrc: config/home/zshrc
     ~/.oh-my-zsh/custom: config/home/oh-my-zsh/custom
