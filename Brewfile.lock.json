@@ -587,23 +587,19 @@
         "version": "0.21.1",
         "bottle": {
           "cellar": ":any_skip_relocation",
-          "prefix": "/home/linuxbrew/.linuxbrew",
+          "prefix": "/usr/local",
           "files": {
             "catalina": {
-              "url": "https://linuxbrew.bintray.com/bottles/fzf-0.21.1.catalina.bottle.tar.gz",
+              "url": "https://homebrew.bintray.com/bottles/fzf-0.21.1.catalina.bottle.tar.gz",
               "sha256": "733f79496c3246979ca05eeb5677a5fd9e8ec532e69e8b2012102cacddba8ae6"
             },
             "mojave": {
-              "url": "https://linuxbrew.bintray.com/bottles/fzf-0.21.1.mojave.bottle.tar.gz",
+              "url": "https://homebrew.bintray.com/bottles/fzf-0.21.1.mojave.bottle.tar.gz",
               "sha256": "3c03bb9715be153a0f776d06cf4acd436ad4faa4266f7bd875a0d37594291516"
             },
             "high_sierra": {
-              "url": "https://linuxbrew.bintray.com/bottles/fzf-0.21.1.high_sierra.bottle.tar.gz",
+              "url": "https://homebrew.bintray.com/bottles/fzf-0.21.1.high_sierra.bottle.tar.gz",
               "sha256": "d15a616156eb92071f1cfc50f10366532af92ca1635d309162141ad67f785865"
-            },
-            "x86_64_linux": {
-              "url": "https://linuxbrew.bintray.com/bottles/fzf-0.21.1.x86_64_linux.bottle.tar.gz",
-              "sha256": "721f698eb50a02d7d435cb9b81099e5f0a7abfec284adbbbd48f4e5848ad28cd"
             }
           }
         }
@@ -722,6 +718,27 @@
             "high_sierra": {
               "url": "https://homebrew.bintray.com/bottles/zsh-5.8.high_sierra.bottle.tar.gz",
               "sha256": "029b8c6922f01bfd832dd0f4f940f99328d2495714c37c1dc7ef326d6fb1459e"
+            }
+          }
+        }
+      },
+      "wget": {
+        "version": "1.20.3_2",
+        "bottle": {
+          "cellar": "/usr/local/Cellar",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/wget-1.20.3_2.catalina.bottle.tar.gz",
+              "sha256": "ef65c759c5097a36323fa9c77756468649e8d1980a3a4e05695c05e39568967c"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/wget-1.20.3_2.mojave.bottle.tar.gz",
+              "sha256": "28f4090610946a4eb207df102d841de23ced0d06ba31cb79e040d883906dcd4f"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/wget-1.20.3_2.high_sierra.bottle.tar.gz",
+              "sha256": "91dd0caca9bd3f38c439d5a7b6f68440c4274945615fae035ff0a369264b8a2f"
             }
           }
         }
