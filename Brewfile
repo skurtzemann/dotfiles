@@ -3,6 +3,7 @@ tap "homebrew/cask-fonts"
 
 # Packages
 brew "awscli"
+brew "direnv"
 brew "kubectl"
 brew "zsh"
 brew "zsh-completions"
