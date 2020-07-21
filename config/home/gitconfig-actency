@@ -1,0 +1,6 @@
+[user]
+	name = Sébastien Kurtzemann
+	email = sebastien.kurtzemann@actency.fr
+	signingkey = AF2D2356AD4A1021
+[commit]
+	gpgsign = true
