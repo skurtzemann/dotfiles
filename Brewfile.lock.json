@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask-fonts": {
-        "revision": "58e0c533a980f44042020989ed0bf899eecede7a"
+        "revision": "a0b55e451f35218d0f24f982b0db120b84c598a2"
       }
     },
     "brew": {
@@ -156,6 +156,12 @@
         "options": {
           "full_name": "gitkraken"
         }
+      },
+      "gpg-suite": {
+        "version": "2020.1",
+        "options": {
+          "full_name": "gpg-suite"
+        }
       }
     }
   },
@@ -164,10 +170,10 @@
       "catalina": {
         "HOMEBREW_VERSION": "2.4.8",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "8b372a7e863a8a83bb0c4b9e87abbd53263c07ca",
-        "CLT": "11.5.0.0.1.1588476445",
+        "Homebrew/homebrew-core": "94ec4ae786d5d9f83ce4c077f975fce8308179c6",
+        "CLT": "1103.0.32.62",
         "Xcode": "11.5",
-        "macOS": "10.15.5"
+        "macOS": "10.15.6"
       }
     }
   }
