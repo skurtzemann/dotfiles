@@ -21,6 +21,7 @@
     ~/.gmailctl/choukrut@gmail.com/config.jsonnet: private/config/home/gmailctl/choukrut@gmail.com/config.jsonnet
     ~/.gitconfig: config/home/gitconfig
     ~/.gitconfig-personal: config/home/gitconfig-personal
-    ~/.gitconfig-proximis: config/home/gitconfig-proximis
+    ~/.gitconfig-actency: config/home/gitconfig-actency
     ~/.gnupg/gpg.conf: config/home/gpg.conf
     ~/.kube/kubie.yaml: config/home/kubie.yaml
+    ~/.ssh/config: config/home/ssh-config
