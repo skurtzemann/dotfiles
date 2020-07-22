@@ -3,6 +3,12 @@
     "tap": {
       "homebrew/cask-fonts": {
         "revision": "a0b55e451f35218d0f24f982b0db120b84c598a2"
+      },
+      "aquasecurity/trivy": {
+        "revision": "9da3ab87b72b52a122b3c003d23c3cf5b4378006"
+      },
+      "go-task/tap": {
+        "revision": "a22e5baf920d24ca54fe5868cad88dab3029f49d"
       }
     },
     "brew": {
@@ -173,7 +179,93 @@
             }
           }
         }
-      }
+      },
+      "docker": {
+        "version": "19.03.12",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/docker-19.03.12.catalina.bottle.1.tar.gz",
+              "sha256": "ce26e2a26692cd22ad6c37edbae304e2349f98682f51fc8e5c1ae074fa9573fc"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/docker-19.03.12.mojave.bottle.1.tar.gz",
+              "sha256": "be8241ad433dd7c8a5c9b73344f4e24f0bc4b4808f4a33b99811ea403d0d0159"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/docker-19.03.12.high_sierra.bottle.1.tar.gz",
+              "sha256": "ac92b86b4f792d61be6c0d90549a3633e071c4a6833d696b8a285b3be90962f7"
+            }
+          }
+        }
+      },
+      "kind": {
+        "version": "0.8.1",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/kind-0.8.1.catalina.bottle.1.tar.gz",
+              "sha256": "b3df2d17b1e04549456c846b4e6821b9ba944cc9d960a4cd503281b1d180c6f4"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/kind-0.8.1.mojave.bottle.1.tar.gz",
+              "sha256": "f91154348256db372a2dc67fde509072693993338acb34b89374df138e6c53b8"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/kind-0.8.1.high_sierra.bottle.1.tar.gz",
+              "sha256": "50ea3dd46ea5e1965bd3cc94e95d30b855ddf64c0a103ee83980ba356a6b2625"
+            }
+          }
+        }
+      },
+      "minikube": {
+        "version": "1.12.1",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/minikube-1.12.1.catalina.bottle.tar.gz",
+              "sha256": "84aa48991e5a90287fe9bdb52ccd9c936b29446a0bac701d8a518c88562ab6f7"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/minikube-1.12.1.mojave.bottle.tar.gz",
+              "sha256": "a2c0efddddd1ad734a6b24ab9380e7a5718e169e48f7ff35cbc5fd9f85db96a2"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/minikube-1.12.1.high_sierra.bottle.tar.gz",
+              "sha256": "419d870347183de062fb01c36386ff106b5c7c0f78432fd5f39586614609fe89"
+            }
+          }
+        }
+      },
+      "helm": {
+        "version": "3.2.4_1",
+        "bottle": {
+          "cellar": ":any_skip_relocation",
+          "prefix": "/usr/local",
+          "files": {
+            "catalina": {
+              "url": "https://homebrew.bintray.com/bottles/helm-3.2.4_1.catalina.bottle.tar.gz",
+              "sha256": "ef144157585daf829c63c3a8fe35563b743f5783b92671f6707970b138e9dc06"
+            },
+            "mojave": {
+              "url": "https://homebrew.bintray.com/bottles/helm-3.2.4_1.mojave.bottle.tar.gz",
+              "sha256": "4d2f7c76c460765302cac696913707ad0b4ab7b2491f1cae4879f44c1f2e114f"
+            },
+            "high_sierra": {
+              "url": "https://homebrew.bintray.com/bottles/helm-3.2.4_1.high_sierra.bottle.tar.gz",
+              "sha256": "3a09f9884497cd0c9de782913a1c6c44b31a93945ee72bbf377fac00411d670c"
+            }
+          }
+        }
+      },
+      "aquasecurity/trivy/trivy": null,
+      "go-task/tap/go-task": null
     },
     "cask": {
       "font-meslo-for-powerline": {
