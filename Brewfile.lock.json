@@ -291,6 +291,12 @@
         "options": {
           "full_name": "gpg-suite"
         }
+      },
+      "teamviewer": {
+        "version": "15.7.6",
+        "options": {
+          "full_name": "teamviewer"
+        }
       }
     }
   },
