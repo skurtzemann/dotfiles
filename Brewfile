@@ -2,6 +2,7 @@
 tap "aquasecurity/trivy"
 tap "go-task/tap"
 tap "homebrew/cask-fonts"
+tap "homebrew/cask-drivers"
 
 # Packages
 brew "aquasecurity/trivy/trivy"
@@ -26,4 +27,5 @@ cask "iterm2"
 cask "gitkraken"
 cask "gpg-suite"
 cask "microsoft-teams"
+cask "nitrokey"
 cask "teamviewer"

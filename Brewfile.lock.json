@@ -9,6 +9,9 @@
       },
       "go-task/tap": {
         "revision": "a22e5baf920d24ca54fe5868cad88dab3029f49d"
+      },
+      "homebrew/cask-drivers": {
+        "revision": "5275c25812b17ccac72108ecd5e9fc193adbcd95"
       }
     },
     "brew": {
@@ -302,6 +305,12 @@
         "version": "1.3.00.15561",
         "options": {
           "full_name": "microsoft-teams"
+        }
+      },
+      "nitrokey": {
+        "version": "1.4",
+        "options": {
+          "full_name": "nitrokey"
         }
       }
     }
