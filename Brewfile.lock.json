@@ -312,6 +312,12 @@
         "options": {
           "full_name": "nitrokey"
         }
+      },
+      "logmein-client": {
+        "version": "latest",
+        "options": {
+          "full_name": "logmein-client"
+        }
       }
     }
   },
