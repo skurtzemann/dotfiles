@@ -15,6 +15,9 @@
       },
       "xwmx/taps": {
         "revision": "f069b0939764a733310ab57be9596972924c635a"
+      },
+      "knqyf263/pet": {
+        "revision": "ba9679b229406f44d924f18005572d97348f2ead"
       }
     },
     "brew": {
@@ -339,7 +342,8 @@
             }
           }
         }
-      }
+      },
+      "knqyf263/pet/pet": null
     },
     "cask": {
       "font-meslo-for-powerline": {
