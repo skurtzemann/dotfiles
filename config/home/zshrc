@@ -99,12 +99,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/sebastien/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/sebastien/Downloads/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/sebastien/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/sebastien/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
-
 # Add kube-ps1 
 # source "/opt/kube-ps1/kube-ps1.sh"
 # PROMPT='$(kube_ps1)'$PROMPT
@@ -118,3 +112,9 @@ PROMPT='$(gbt $?)'
 
 # FZF (https://github.com/junegunn/fzf)
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/sebastienkurtzemann/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/sebastienkurtzemann/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/sebastienkurtzemann/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/sebastienkurtzemann/google-cloud-sdk/completion.zsh.inc'; fi
