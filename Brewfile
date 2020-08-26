@@ -8,6 +8,7 @@ tap "xwmx/taps"
 
 # Packages
 brew "aquasecurity/trivy/trivy"
+brew "ansible"
 brew "awscli"
 brew "direnv"
 brew "docker"
