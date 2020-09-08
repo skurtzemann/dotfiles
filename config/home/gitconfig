@@ -6,3 +6,9 @@
 
 [program]
 	pgp = /usr/bin/gpg
+
+[status]
+	submoduleSummary = true
+
+[diff]
+	submodule = log
