@@ -547,6 +547,12 @@
         "options": {
           "full_name": "vagrant"
         }
+      },
+      "toggl": {
+        "version": "7.5.245",
+        "options": {
+          "full_name": "toggl"
+        }
       }
     }
   },
