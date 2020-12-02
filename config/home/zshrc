@@ -123,3 +123,6 @@ if [ -f '/Users/sebastienkurtzemann/google-cloud-sdk/path.zsh.inc' ]; then . '/U
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/sebastienkurtzemann/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/sebastienkurtzemann/google-cloud-sdk/completion.zsh.inc'; fi
+
+# Scaleway CLI autocomplete initialization.
+eval "$(scw autocomplete script shell=zsh)"
