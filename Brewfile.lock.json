@@ -24,6 +24,9 @@
       },
       "goreleaser/tap": {
         "revision": "b5c8fe5bc0724c0e9ddea4b3e302d764489413c3"
+      },
+      "civo/tools": {
+        "revision": "6ab6affc4ddac02c3043f03e4d18662215b8d339"
       }
     },
     "brew": {
@@ -1356,6 +1359,10 @@
             }
           }
         }
+      },
+      "civo": {
+        "version": "0.7.20",
+        "bottle": false
       }
     },
     "cask": {
