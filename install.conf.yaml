@@ -16,9 +16,9 @@
 - link:
     ~/.zshrc: config/home/zshrc
     ~/.oh-my-zsh/custom: config/home/oh-my-zsh/custom
-    ~/.tmux.conf: config/home/tmux.conf
-    ~/.tmux.conf.local: config/home/tmux.conf.local
-    ~/.gmailctl/choukrut@gmail.com/config.jsonnet: private/config/home/gmailctl/choukrut@gmail.com/config.jsonnet
+#    ~/.tmux.conf: config/home/tmux.conf
+#    ~/.tmux.conf.local: config/home/tmux.conf.local
+#    ~/.gmailctl/choukrut@gmail.com/config.jsonnet: private/config/home/gmailctl/choukrut@gmail.com/config.jsonnet
     ~/.gitconfig: config/home/gitconfig
     ~/.gitconfig-personal: config/home/gitconfig-personal
     ~/.gitconfig-actency: config/home/gitconfig-actency
