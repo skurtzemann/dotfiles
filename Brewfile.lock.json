@@ -1437,6 +1437,12 @@
         "options": {
           "full_name": "adoptopenjdk11"
         }
+      },
+      "multipass": {
+        "version": "1.6.2",
+        "options": {
+          "full_name": "multipass"
+        }
       }
     }
   },
