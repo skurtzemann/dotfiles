@@ -9,3 +9,5 @@ alias u="source ~/.zshrc"
 alias v="vagrant"
 
 alias ll="ls -al"
+
+# alias bat="bat --paging=never"
