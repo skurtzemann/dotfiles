@@ -11,3 +11,5 @@ alias v="vagrant"
 alias ll="ls -al"
 
 # alias bat="bat --paging=never"
+
+alias vmshow="ps -Af | grep hyperkit"
