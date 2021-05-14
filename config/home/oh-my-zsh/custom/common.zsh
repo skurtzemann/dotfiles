@@ -13,3 +13,6 @@ alias ll="ls -al"
 # alias bat="bat --paging=never"
 
 alias vmshow="ps -Af | grep hyperkit"
+
+export SYNO_MAC_ADDR=""
+alias synoup="wakeonlan -i 192.168.1.100 $SYNO_MAC_ADDR"
