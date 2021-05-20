@@ -27,6 +27,9 @@
       },
       "civo/tools": {
         "revision": "6ab6affc4ddac02c3043f03e4d18662215b8d339"
+      },
+      "upbound/tap": {
+        "revision": "e188a8d4c724fd3d1d5c53f80bb4f0aac978d961"
       }
     },
     "brew": {
@@ -1412,6 +1415,10 @@
             }
           }
         }
+      },
+      "upbound/tap/up": {
+        "version": "v0.1.0",
+        "bottle": false
       }
     },
     "cask": {
