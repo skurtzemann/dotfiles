@@ -1,5 +1,5 @@
-[includeIf "gitdir:~/Work/Sources/Actency/"]
-	path = .gitconfig-actency
+[includeIf "gitdir:~/Work/Sources/"]
+	path = .gitconfig-stacklabs
 
 [includeIf "gitdir:~/Private/Sources/"]
 	path = .gitconfig-personal
