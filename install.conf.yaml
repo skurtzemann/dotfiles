@@ -2,8 +2,8 @@
     link:
       force: true
 
-- brewfile:
-    file: Brewfile
+# - brewfile:
+#     file: Brewfile
 
 - go:
     - package: github.com/jtyr/gbt/cmd/gbt
