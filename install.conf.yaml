@@ -22,6 +22,7 @@
     ~/.gitconfig: config/home/gitconfig
     ~/.gitconfig-personal: config/home/gitconfig-personal
     ~/.gitconfig-actency: config/home/gitconfig-actency
+    ~/.gitconfig-stacklabs: config/home/gitconfig-stacklabs
     ~/.gnupg/gpg.conf: config/home/gpg.conf
     ~/.kube/kubie.yaml: config/home/kubie.yaml
     ~/.ssh/config: config/home/ssh-config
