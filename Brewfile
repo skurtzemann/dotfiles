@@ -66,6 +66,8 @@ brew "zsh-syntax-highlighting"
 # MacOS Applications
 cask "adoptopenjdk11"
 cask "discord"
+cask "docker"
+cask "docker-toolbox"
 cask "font-meslo-for-powerline"
 cask "iterm2"
 cask "gitkraken"

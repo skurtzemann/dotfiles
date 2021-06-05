@@ -1522,6 +1522,18 @@
         "options": {
           "full_name": "visual-studio-code"
         }
+      },
+      "docker-toolbox": {
+        "version": "19.03.1",
+        "options": {
+          "full_name": "docker-toolbox"
+        }
+      },
+      "docker": {
+        "version": "3.3.3,64133",
+        "options": {
+          "full_name": "docker"
+        }
       }
     }
   },
