@@ -1,0 +1,5 @@
+[user]
+	name = Sébastien Kurtzemann
+	email = sebastien.kurtzemann@ext.adeo.com
+[core]
+    sshCommand = ssh -i ~/.ssh/id_rsa-adeo -F /dev/null
