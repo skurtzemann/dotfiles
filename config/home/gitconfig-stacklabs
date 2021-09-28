@@ -1,6 +1,0 @@
-[user]
-	name = Sébastien Kurtzemann
-	email = sebastien.kurtzemann@stack-labs.com
-	signingkey = 8CB7533986ACEE74
-[commit]
-	gpgsign = true
