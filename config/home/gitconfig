@@ -1,7 +1,5 @@
 [includeIf "gitdir:~/Work/Sources/"]
-	path = .gitconfig-stacklabs
-[includeIf "gitdir:~/Work/clients/a/adeo/Sources/"]
-	path = .gitconfig-adeo
+	path = .gitconfig-ubisoft
 
 [includeIf "gitdir:~/Private/Sources/"]
 	path = .gitconfig-personal
