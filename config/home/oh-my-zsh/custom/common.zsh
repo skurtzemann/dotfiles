@@ -12,6 +12,7 @@ alias ll="ls -al"
 
 # alias bat="bat --paging=never"
 
+alias python="python3"
 alias vmshow="ps -Af | grep hyperkit"
 
 export SYNO_MAC_ADDR=""
