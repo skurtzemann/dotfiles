@@ -3,3 +3,9 @@ Host github.com
     HostName github.com
     PreferredAuthentications publickey
     IdentityFile ~/.ssh/id_rsa-seb.kurtzemann.fr
+
+Host gitlab.com
+    User git
+    HostName gitlab.com
+    PreferredAuthentications publickey
+    IdentityFile ~/.ssh/id_rsa-seb+gitlab.kurtzemann.fr
