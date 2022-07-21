@@ -15,5 +15,9 @@ alias ll="ls -al"
 alias python="python3"
 alias vmshow="ps -Af | grep hyperkit"
 
+function diff {
+  colordiff -u "$@"
+}
+
 export SYNO_MAC_ADDR=""
 alias synoup="wakeonlan -i 192.168.1.100 $SYNO_MAC_ADDR"
