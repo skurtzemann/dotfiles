@@ -1,6 +1,4 @@
 [user]
 	name = Sébastien Kurtzemann
 	email = sebastien.kurtzemann@ubisoft.com
-	signingkey = 18EAA6F347CB5A5C
-[commit]
-	gpgsign = true
+	
