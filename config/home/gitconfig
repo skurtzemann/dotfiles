@@ -1,5 +1,5 @@
 [includeIf "gitdir:~/Work/Sources/"]
-	path = .gitconfig-ubisoft
+	path = .gitconfig-gradle
 
 [includeIf "gitdir:~/Private/Sources/"]
 	path = .gitconfig-personal
