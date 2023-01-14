@@ -1,0 +1,6 @@
+[user]
+	name = Sébastien Kurtzemann
+	email = skurtzemann@gradle.com
+	signingkey = 76145B1C74C55EC5
+[commit]
+	gpgsign = true
