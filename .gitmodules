@@ -4,6 +4,3 @@
 [submodule "dotbot-golang"]
 	path = dotbot-golang
 	url = https://github.com/delicb/dotbot-golang
-[submodule "dotbot-brewfile"]
-	path = dotbot-brewfile
-	url = https://github.com/sobolevn/dotbot-brewfile.git
