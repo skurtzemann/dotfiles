@@ -11,6 +11,6 @@ export GBT_CAR_GIT_FORMAT=' {{ Icon }} {{ Head }} {{ Status }}{{ Ahead }}{{ Behi
 export GBT_CAR_GIT_AHEAD_FORMAT='{{ AheadSymbol }}(+{{ AheadCount }})'
 export GBT_CAR_GIT_BEHIND_FORMAT='{{ BehindSymbol }}(-{{ BehindCount }})'
 export GBT_CAR_GIT_STASH_FORMAT='{{ StashSymbol }}({{ StashCount }})'
-export GBT_CAR_SIGN_USER_TEXT='Λ\:'
+export GBT_CAR_SIGN_USER_TEXT='🐘>'
 export GBT_CAR_SIGN_USER_FG='blue'
 export GBT_CAR_SIGN_WRAP="1"
