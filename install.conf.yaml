@@ -2,16 +2,14 @@
     link:
       force: true
 
-# - brewfile:
-#     file: Brewfile
+- clean:
+    ~/:
+      force: true
 
-- go:
-    - package: github.com/jtyr/gbt/cmd/gbt
-      flags: [-u]
-      stdout: true
-      stderr: true
 
-- clean: ['~']
+- shell:
+    - mkdir ~/.kube/ | echo ".kube/ already exists"
+    - (mkdir ~/.ssh && chmod 700 ~/.ssh/) | echo ".ssh/ already exists"
 
 - link:
     ~/.zshrc: config/home/zshrc
@@ -21,7 +19,7 @@
 #    ~/.gmailctl/choukrut@gmail.com/config.jsonnet: private/config/home/gmailctl/choukrut@gmail.com/config.jsonnet
     ~/.gitconfig: config/home/gitconfig
     ~/.gitconfig-personal: config/home/gitconfig-personal
-    ~/.gitconfig-ubisoft: config/home/gitconfig-ubisoft
+    ~/.gitconfig-gradle: config/home/gitconfig-gradle
     ~/.gnupg/gpg.conf: config/home/gpg.conf
     ~/.kube/kubie.yaml: config/home/kubie.yaml
     ~/.ssh/config: config/home/ssh-config
