@@ -5,7 +5,7 @@
 	path = .gitconfig-personal
 
 [program]
-	pgp = /usr/bin/gpg
+	pgp = /opt/homebrew/bin/gpg
 
 [status]
 	submoduleSummary = true
