@@ -12,3 +12,6 @@
 
 [diff]
 	submodule = log
+
+[pager]
+	branch = false
