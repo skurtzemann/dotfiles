@@ -11,14 +11,18 @@ One connected you can run one of following commands:
     sudo su - ec2-user
 ===================================================="
 
-    if [[ $# -eq 0 ]]; then 
-        echo "Usage: aws-ssh <instance> [<profile>] [<region>]"
+    if [[ $# -ne 0 ]]; then 
+        echo "Usage: aws-ssh"
         return 0
     else
+        local awsInstanceFile=$(find ${AWS_CONFIG_DIR} -type f -execdir basename '{}' ';' | fzf)
 
-        local instance="${1}"
-        local profile="${2:-g-cs-dev}"
-        local region="${3:-us-east-1}"
+        if [[ "${awsInstanceFile}" != "" ]]; then
+
+        local instance=$(yq -r '.instance.id' ${AWS_CONFIG_DIR}/${awsInstanceFile})
+        local profile=$(yq -r '.instance.profile' ${AWS_CONFIG_DIR}/${awsInstanceFile})
+        local region=$(yq -r '.instance.region' ${AWS_CONFIG_DIR}/${awsInstanceFile})
+
         echo -e "Instance: ${GREEN}${instance}${ENDCOLOR}"
         echo -e "Profile : ${GREEN}${profile}${ENDCOLOR}"
         echo -e "Region  : ${GREEN}${region}${ENDCOLOR}"
@@ -29,5 +33,7 @@ One connected you can run one of following commands:
 
         echo -e $connectCommands
         aws ssm start-session --profile "${profile}" --target ${target} --region "${region}"
+
+        fi
     fi
 }
