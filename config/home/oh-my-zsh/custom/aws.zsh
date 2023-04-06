@@ -1,4 +1,6 @@
 function aws-ssh {
+    AWS_CONFIG_DIR="${HOME}/Work/Sources/config/aws/"
+
     RED="\e[31m"
     GREEN="\e[32m"
     ENDCOLOR="\e[0m"
