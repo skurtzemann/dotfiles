@@ -1,4 +1,15 @@
 function aws-ssh {
+    #
+    # Connect to an EC2 instance using SSM with some "basic" yaml files 
+    #
+    # - use fzf to list all the configured instances located in a config folder
+    # - a "basic" config file looks like
+    #       instance:
+    #         id:       <EC2InstanceId>
+    #         profile:  <awsProfile>
+    #         region:   <awsRegion>
+    #         user:     <userForaSudoCommand>
+    #
     AWS_CONFIG_DIR="${HOME}/Work/Sources/config/aws/"
 
     RED="\e[31m"
