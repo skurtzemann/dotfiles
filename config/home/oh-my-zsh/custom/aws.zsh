@@ -5,13 +5,7 @@ function aws-ssh {
     GREEN="\e[32m"
     ENDCOLOR="\e[0m"
 
-    connectCommands="
-====================================================
-One connected you can run one of following commands:
-    sudo su - ubuntu
-    (or)
-    sudo su - ec2-user
-===================================================="
+    EC2_USER="<notDefined>"
 
     if [[ $# -ne 0 ]]; then 
         echo "Usage: aws-ssh"
@@ -23,6 +17,7 @@ One connected you can run one of following commands:
             local instance=$(yq -r '.instance.id' ${AWS_CONFIG_DIR}/${awsInstanceFile})
             local profile=$(yq -r '.instance.profile' ${AWS_CONFIG_DIR}/${awsInstanceFile})
             local region=$(yq -r '.instance.region' ${AWS_CONFIG_DIR}/${awsInstanceFile})
+            EC2_USER=$(yq -r '.instance.user' ${AWS_CONFIG_DIR}/${awsInstanceFile})
 
             echo -e "Instance: ${GREEN}${instance}${ENDCOLOR}"
             echo -e "Profile : ${GREEN}${profile}${ENDCOLOR}"
@@ -32,6 +27,11 @@ One connected you can run one of following commands:
 
             echo -e "Target  : ${RED}${target}${ENDCOLOR}"
 
+            local connectCommands="
+====================================================
+One connected you can run one of following commands:
+    sudo su - ${EC2_USER}
+===================================================="
             echo -e $connectCommands
             aws ssm start-session --profile "${profile}" --target ${target} --region "${region}"
         fi
