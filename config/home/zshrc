@@ -118,12 +118,15 @@ if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/opt/google-cloud-sdk/path.zsh.inc' ]; then . '/opt/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/opt/google-cloud-sdk/completion.zsh.inc' ]; then . '/opt/google-cloud-sdk/completion.zsh.inc'; fi
-
 # Scaleway CLI autocomplete initialization.
 eval "$(scw autocomplete script shell=zsh)"
 source /Users/skurtzemann/.docker/init-zsh.sh || true # Added by Docker Desktop
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/skurtzemann/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/skurtzemann/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/skurtzemann/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/skurtzemann/google-cloud-sdk/completion.zsh.inc'; fi
+
+# Atuin
+echo 'eval "$(atuin init zsh)"' >> ~/.zshrceval "$(atuin init zsh)"
