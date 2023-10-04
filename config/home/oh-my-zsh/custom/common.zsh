@@ -1,6 +1,7 @@
 alias b="brew"
 alias bb="brew bundle"
 
+alias cat="bat"
 alias cdsp="cd $HOME/Private/Sources/"
 
 alias s="sudo"
