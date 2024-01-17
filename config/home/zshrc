@@ -130,3 +130,6 @@ if [ -f '/Users/skurtzemann/google-cloud-sdk/completion.zsh.inc' ]; then . '/Use
 
 # Atuin
 eval "$(atuin init --disable-up-arrow zsh)"
+
+autoload -U compinit
+compinit
