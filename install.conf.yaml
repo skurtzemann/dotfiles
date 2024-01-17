@@ -6,7 +6,6 @@
     ~/:
       force: true
 
-
 - shell:
     - mkdir ~/.kube/ | echo ".kube/ already exists"
     - (mkdir ~/.ssh && chmod 700 ~/.ssh/) | echo ".ssh/ already exists"
@@ -14,6 +13,7 @@
 - link:
     ~/.zshrc: config/home/zshrc
     ~/.oh-my-zsh/custom: config/home/oh-my-zsh/custom
+    ~/.oh-my-zsh/completions: config/home/oh-my-zsh/completions
 #    ~/.tmux.conf: config/home/tmux.conf
 #    ~/.tmux.conf.local: config/home/tmux.conf.local
 #    ~/.gmailctl/choukrut@gmail.com/config.jsonnet: private/config/home/gmailctl/choukrut@gmail.com/config.jsonnet
