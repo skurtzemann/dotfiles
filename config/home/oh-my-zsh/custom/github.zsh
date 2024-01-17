@@ -9,7 +9,7 @@ function gh-branch {
 
     # Get related issue information and sanitize its title
     issueTitle=$(gh issue view -R gradle/ge $issueNumber --json title,number | jq -r '.title')
-    issueTitleSanitize=$(echo $issueTitle | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | tr -d '`' | tr '.' '-' | tr "'" "-")
+    issueTitleSanitize=$(echo $issueTitle | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | tr -d '`' | tr -d ':' | tr -d '"' | tr '.' '-' | tr "'" "-")
     echo -e "Issue title: ${GREEN}${issueTitle}${ENDCOLOR}"
 
     # Generated branch name
