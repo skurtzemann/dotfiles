@@ -45,6 +45,26 @@
           }
         }
       }
+    },
+    "cask": {
+      "arc": {
+        "version": "1.26.2,45413",
+        "options": {
+          "full_name": "arc"
+        }
+      },
+      "obsidian": {
+        "version": "1.5.3",
+        "options": {
+          "full_name": "obsidian"
+        }
+      },
+      "iterm2": {
+        "version": "3.4.23",
+        "options": {
+          "full_name": "iterm2"
+        }
+      }
     }
   },
   "system": {
