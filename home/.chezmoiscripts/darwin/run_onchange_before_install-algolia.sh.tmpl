@@ -1,0 +1,36 @@
+{{ if .work -}} 
+#!/bin/bash
+set -eufo pipefail
+
+WORK_GH_SOURCE="$HOME/Work/Sources/github"
+
+cd $WORK_GH_SOURCE
+
+
+if [ ! -d ssh-key-signer ]; then
+    echo "📦 Installing ssh-key-signer..."
+
+    git clone git@github.com:algolia/ssh-key-signer.git
+
+    cd ssh-key-signer/clients/
+    TAG=$(git describe --tags --abbrev=0)
+    VERSION=$(echo "${TAG}" | sed -e 's/^v//' | cut -d. -f-2)
+    MINOR=$(git rev-list v${VERSION}..HEAD --count)
+    sudo go build -trimpath -a -ldflags "-X main.version=${VERSION}.${MINOR} -s -w -extldflags '-static'"  -o /usr/local/bin/ssh-signer-client
+fi
+
+
+cd /tmp
+
+
+CHEF_DK_VER=4.13.3
+if [ "$(pkgutil --pkgs | grep -c chef)" == "0" ]; then
+    echo "📦 Installing chefdk..."
+    wget https://packages.chef.io/files/stable/chefdk/${CHEF_DK_VER}/mac_os_x/11.0/chefdk-${CHEF_DK_VER}-1.dmg
+    hdiutil attach chefdk-${CHEF_DK_VER}-1.dmg
+    sudo installer -pkg /Volumes/ChefDK/chefdk-${CHEF_DK_VER}-1.pkg -target /
+    sudo hdiutil detach /Volumes/ChefDK
+    rm -f chefdk-${CHEF_DK_VER}-1.dmg
+fi
+
+{{ end -}}
