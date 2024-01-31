@@ -1,8 +1,10 @@
 # Repositories
 tap "homebrew/cask-fonts"
+tap "jtyr/repo"
 
 # Packages
 brew "chezmoi"
+brew "gbt"
 brew "golang"
 brew "vault"
 brew "zsh"
