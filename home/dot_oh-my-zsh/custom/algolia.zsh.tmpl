@@ -1,2 +1,5 @@
 export AUSER={{ onepasswordRead "op://Algolia/Config/auser" .onepasswordAccount }}
 export VAULT_ADDR={{ onepasswordRead "op://Algolia/Vault/address" .onepasswordAccount }}
+
+export AJIRA_USER={{ onepasswordRead "op://Algolia/Config/ajira-user" .onepasswordAccount | quote }}
+export AJIRA_API_KEY={{ onepasswordRead "op://Algolia/Jira - API Token - gh-branch/credential" .onepasswordAccount | quote }}
