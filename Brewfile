@@ -3,6 +3,7 @@ tap "homebrew/cask-fonts"
 tap "jtyr/repo"
 
 # Packages
+brew "awscli"
 brew "chezmoi"
 brew "gbt"
 brew "gmailctl"
