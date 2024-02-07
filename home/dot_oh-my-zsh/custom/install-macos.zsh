@@ -1,1 +1,1 @@
-alias install-macos="$HOME/Private/Sources/github/install-macos/scripts/bootstrap.sh"
+alias macos-install="$HOME/Private/Sources/github/install-macos/scripts/bootstrap.sh"
