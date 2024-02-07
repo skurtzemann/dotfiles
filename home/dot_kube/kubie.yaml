@@ -1,0 +1,13 @@
+# cf. https://github.com/sbstp/kubie#settings
+shell: zsh
+
+configs:
+  include:
+    - ~/.kube/kubie/*.yml
+    - ~/.kube/kubie/*.yaml
+  exclude:
+    - ~/.kube/kubie.yaml
+
+prompt:
+  disable: true
+  zsh_use_rps1: false
