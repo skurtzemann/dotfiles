@@ -1,6 +1,17 @@
-[user]
-	email = seb@kurtzemann.fr
-	name  = Kurtzemann Sébastien
+[includeIf "gitdir:~/Private/Sources/"]
+	path = .gitconfig-personal
+
+[program]
+	pgp = /usr/local/bin/gpg
+
+[status]
+	submoduleSummary = true
+
+[diff]
+	submodule = log
+
+[pager]
+	branch = false
 
 [url "git@github.com:"]
 	insteadOf = https://github.com/
