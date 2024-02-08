@@ -1,5 +1,7 @@
 [includeIf "gitdir:~/Private/Sources/"]
 	path = .gitconfig-personal
+[includeIf "gitdir:~/.local/share/chezmoi/"]
+	path = .gitconfig-personal
 
 [program]
 	pgp = /usr/local/bin/gpg
