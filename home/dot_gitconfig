@@ -1,5 +1,8 @@
 [includeIf "gitdir:~/Private/Sources/"]
 	path = .gitconfig-personal
+[ghq "https://github.com/skurtzemann/"]
+	root = ~/Private/Sources/
+
 [includeIf "gitdir:~/.local/share/chezmoi/"]
 	path = .gitconfig-personal
 
