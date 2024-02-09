@@ -2,6 +2,8 @@
 	path = .gitconfig-personal
 [ghq "https://github.com/skurtzemann/"]
 	root = ~/Private/Sources/
+[ghq "https://gitlab.com/k8n.fr/"]
+	root = ~/Private/Sources/
 
 [includeIf "gitdir:~/.local/share/chezmoi/"]
 	path = .gitconfig-personal
@@ -20,3 +22,5 @@
 
 [url "git@github.com:"]
 	insteadOf = https://github.com/
+[url "git@gitlab.com:"]
+	insteadOf = https://gitlab.com/
