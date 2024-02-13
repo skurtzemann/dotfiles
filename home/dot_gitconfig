@@ -1,3 +1,8 @@
+[includeIf "gitdir:~/Work/Sources/"]
+	path = .gitconfig-algolia
+[ghq "https://github.com/algolia/"]
+	root = ~/Work/Sources/
+
 [includeIf "gitdir:~/Private/Sources/"]
 	path = .gitconfig-personal
 [ghq "https://github.com/skurtzemann/"]
