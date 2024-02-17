@@ -4,6 +4,7 @@ tap "homebrew/cask-fonts"
 tap "jtyr/repo"
 
 # Packages
+brew "atuin"
 brew "awscli"
 brew "chezmoi"
 brew "colima"
