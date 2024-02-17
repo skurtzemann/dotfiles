@@ -2,6 +2,7 @@
 tap "go-task/tap"
 tap "homebrew/cask-fonts"
 tap "jtyr/repo"
+tap "koyeb/tap"
 
 # Packages
 brew "atuin"
@@ -20,6 +21,7 @@ brew "helm"
 brew "helmfile"
 brew "fzf"
 brew "jq"
+brew "koyeb/tap/koyeb"
 brew "kubectl"
 brew "kubie"
 brew "k3d"
