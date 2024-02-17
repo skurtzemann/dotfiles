@@ -1,4 +1,5 @@
 # Repositories
+tap "go-task/tap"
 tap "homebrew/cask-fonts"
 tap "jtyr/repo"
 
@@ -10,6 +11,7 @@ brew "docker"
 brew "docker-compose"
 brew "gbt"
 brew "ghq"
+brew "go-task/tap/go-task"
 brew "gpg"
 brew "gmailctl"
 brew "golang"
