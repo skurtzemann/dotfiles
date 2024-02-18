@@ -71,3 +71,6 @@ PROMPT='$(gbt $?)'
 
 # Enable Atuin
 eval "$(atuin init --disable-up-arrow zsh)"
+
+# Enable direnv (https://direnv.net/docs/hook.md)
+eval "$(direnv hook zsh)"
