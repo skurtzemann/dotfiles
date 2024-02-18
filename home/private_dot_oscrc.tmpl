@@ -1,0 +1,9 @@
+[general]
+apiurl = {{ onepasswordRead "op://Algolia/Config/osc-apiurl" .onepasswordAccount }}
+build-jobs = 2
+use_keyring = 1
+
+[{{ onepasswordRead "op://Algolia/Config/osc-apiurl" .onepasswordAccount }}]
+user={{ onepasswordRead "op://Algolia/OBS - user/username" .onepasswordAccount }}
+pass={{ onepasswordRead "op://Algolia/OBS - user/password" .onepasswordAccount }}
+credentials_mgr_class=osc.credentials.PlaintextConfigFileCredentialsManager
