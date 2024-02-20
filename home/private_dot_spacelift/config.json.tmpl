@@ -1,0 +1,14 @@
+{
+  "currentProfileAlias": "{{ onepasswordRead "op://IT/Config/spacelift-profile" .onepasswordAccount }}",
+  "profiles": {
+    "{{ onepasswordRead "op://IT/Config/spacelift-profile" .onepasswordAccount }}": {
+      "alias": "{{ onepasswordRead "op://IT/Config/spacelift-profile" .onepasswordAccount }}",
+      "credentials": {
+        "type": 1,
+        "endpoint": "{{ onepasswordRead "op://IT/Config/spacelift-endpoint" .onepasswordAccount }}",
+        "key_id": "{{ onepasswordRead "op://IT/Spacelift - API Key - spacectl/username" .onepasswordAccount }}",
+        "key_secret": "{{ onepasswordRead "op://IT/Spacelift - API Key - spacectl/credential" .onepasswordAccount }}"
+      }
+    }
+  }
+}
