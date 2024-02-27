@@ -48,6 +48,8 @@ brew "zsh-syntax-highlighting"
 # MacOS Applications
 cask "1password-cli"
 cask "arc"
+cask "battery"
+cask "coconutbattery"
 cask "font-meslo-for-powerline"
 cask "gpg-suite"
 cask "iterm2"
