@@ -8,6 +8,8 @@ tap "spectralops/tap"
 
 # Packages
 brew "atuin"
+brew "azure-cli"
+brew "azure/kubelogin/kubelogin"
 brew "awscli"
 brew "chezmoi"
 brew "colima"
