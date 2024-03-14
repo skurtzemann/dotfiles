@@ -4,7 +4,7 @@ function gh-branch {
     ENDCOLOR="\e[0m"
 
     # Choose the project
-    local project=$(echo "FLEET\nSRE" | fzf)
+    local project=$(echo "FLEET\nSRE\nCR" | fzf)
 
     # Ask for the issue number
     read "?Enter your Jira issue number in project ${project}: " issueNumber
