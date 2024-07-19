@@ -77,3 +77,6 @@ eval "$(direnv hook zsh)"
 
 # Enable krew
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+
+# Enable ASDF
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
