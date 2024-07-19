@@ -74,3 +74,6 @@ eval "$(atuin init --disable-up-arrow zsh)"
 
 # Enable direnv (https://direnv.net/docs/hook.md)
 eval "$(direnv hook zsh)"
+
+# Enable krew
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
