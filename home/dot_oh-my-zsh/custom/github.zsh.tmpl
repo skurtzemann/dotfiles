@@ -14,7 +14,7 @@ function gh-branch {
 
     # Get related issue information and sanitize its title
     issueSummary=$(curl -s {{ onepasswordRead "op://Algolia/Config/jira-url" .onepasswordAccount }}/rest/api/3/issue/${issueKey} --user ${AJIRA_USER}:${AJIRA_API_KEY} | jq -r ".fields.summary" )
-    issueSummarySanitize=$(echo $issueSummary | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | tr -d '`' | tr -d ':' | tr -d '"' | tr '.' '-' | tr "'" "-" | tr -d ',' | tr -d '“' | tr -d '”' | tr '/' '-')
+    issueSummarySanitize=$(echo $issueSummary | tr '[:upper:]' '[:lower:]' | tr ' ' '-' | tr -d '`' | tr -d ':' | tr -d '"' | tr '.' '-' | tr "'" "-" | tr -d ',' | tr -d '“' | tr -d '”' | tr '/' '-' | tr -d '[' | tr -d ']')
     echo -e "Issue summary: ${GREEN}${issueSummary}${ENDCOLOR}"
 
     # Generated branch name
