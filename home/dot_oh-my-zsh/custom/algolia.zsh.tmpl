@@ -3,3 +3,6 @@ export VAULT_ADDR={{ onepasswordRead "op://Algolia/Vault/address" .onepasswordAc
 
 export AJIRA_USER={{ onepasswordRead "op://Algolia/Config/ajira-user" .onepasswordAccount | quote }}
 export AJIRA_API_KEY={{ onepasswordRead "op://Algolia/Jira - API Token - gh-branch/credential" .onepasswordAccount | quote }}
+
+alias vault-login-user="vault login -field=policies -method=userpass username={{ onepasswordRead "op://Algolia/Vault/username" .onepasswordAccount }}"
+alias vault-login-oidc="vault login -field=policies -method=oidc"
