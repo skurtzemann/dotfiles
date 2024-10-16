@@ -17,3 +17,5 @@ alias vmshow="ps -Af | grep hyperkit"
 function diff {
   colordiff -u "$@"
 }
+
+alias listports="sudo lsof -i -P | grep LISTEN"
