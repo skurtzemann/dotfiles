@@ -1,4 +1,5 @@
 # Repositories
+tap "fluxcd/tap"
 tap "go-task/tap"
 tap "homebrew/cask-fonts"
 tap "jtyr/repo"
@@ -27,6 +28,7 @@ brew "gnu-getopt"
 brew "golang"
 brew "helm"
 brew "helmfile"
+brew "fluxcd/tap/flux"
 brew "fzf"
 brew "jq"
 brew "keyring"
