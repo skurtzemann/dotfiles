@@ -6,3 +6,12 @@ export AJIRA_API_KEY={{ onepasswordRead "op://Algolia/Jira - API Token - gh-bran
 
 alias vault-login-user="vault login -field=policies -method=oidc role=operator"
 alias vault-login-oidc="vault login -field=policies -method=oidc"
+
+function init-infra-cli-dev {
+    INFRA_CLI_SRC_DIR={{ onepasswordRead "op://Algolia/Config/infra-cli-src-dir" .onepasswordAccount | quote }}
+
+    cd ${INFRA_CLI_SRC_DIR}
+    pyenv activate cli
+    export PYTHONPATH=modules
+    env | grep PYTHONPATH
+}
