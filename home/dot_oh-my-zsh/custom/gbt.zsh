@@ -1,5 +1,5 @@
 export GBT_CARS='Status, Dir, Kubectl, Git, Sign'
-export GBT_CAR_STATUS_FORMAT=' {{ Symbol }} {{ Signal }} '
+export GBT_CAR_STATUS_FORMAT=' {{ Symbol }} {{ Signal }} ↳[{{ Code }}]'
 export GBT_CAR_HOSTNAME_FORMAT=' {{ User }} '
 export GBT_CAR_DIR_DEPTH='5'
 export GBT_CAR_DIR_BG="yellow"
