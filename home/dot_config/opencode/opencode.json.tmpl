@@ -1,0 +1,26 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "vllm/{{ onepasswordRead "op://Algolia/AI-Config/model-id" .onepasswordAccount }}",
+  "provider": {
+    "vllm": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "VLLM",
+      "options": {
+        "baseURL": {{ onepasswordRead "op://Algolia/AI-Config/openai-endpoint" .onepasswordAccount | quote }},
+        "apiKey": "<<INJECTED_OPENAI_TOKEN>>"
+      },
+      "models": {
+        {{ onepasswordRead "op://Algolia/AI-Config/model-id" .onepasswordAccount | quote }}: {
+          "id": {{ onepasswordRead "op://Algolia/AI-Config/model-id" .onepasswordAccount | quote }},
+          "name": {{ onepasswordRead "op://Algolia/AI-Config/model-name" .onepasswordAccount | quote}},
+          "reasoning": true,
+          "limit": {
+            "context": {{ onepasswordRead "op://Algolia/AI-Config/model-context-window" .onepasswordAccount }},
+            "output": {{ onepasswordRead "op://Algolia/AI-Config/model-max-batch-tokens" .onepasswordAccount }}
+          },
+          "tool_call": true
+        },
+      }
+    }
+  }
+}

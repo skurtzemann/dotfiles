@@ -1,0 +1,47 @@
+{
+  "$schema": "https://charm.land/crush.json",
+  "options": {
+    "disable_metrics": true,
+    "disable_provider_auto_update": false
+  },
+  "providers": {
+    "vllm": {
+      "name": "VLLM",
+      "type": "openai-compat",
+      "base_url": {{ onepasswordRead "op://Algolia/AI-Config/openai-endpoint-medium" .onepasswordAccount | quote }},
+      "api_key": "<<INJECTED_OPENAI_TOKEN>>",
+      "models": [
+        {
+          "id": {{ onepasswordRead "op://Algolia/AI-Config/model-id" .onepasswordAccount | quote }},
+          "name": {{ onepasswordRead "op://Algolia/AI-Config/model-name" .onepasswordAccount | quote}},
+          "context_window": {{ onepasswordRead "op://Algolia/AI-Config/model-context-window" .onepasswordAccount }},
+          "default_max_tokens": {{ onepasswordRead "op://Algolia/AI-Config/model-max-batch-tokens" .onepasswordAccount }},
+          "can_reason": true,
+          "has_reasoning_efforts": true,
+          "supports_attachments": false
+        }
+      ]
+    }
+  },
+  "mcp": {},
+  "tools": {},
+  "options": {},
+  "permissions": {
+    "allowed_tools": [
+      "view",
+      "ls",
+      "grep",
+      "edit",
+      "multiedit",
+      "write",
+      "bash",
+      "glob",
+      "web_search",
+      "fetch",
+      "download",
+      "diagnostics",
+      "references",
+      "todo"
+    ]
+  }
+}

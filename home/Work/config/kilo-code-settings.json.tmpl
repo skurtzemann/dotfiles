@@ -1,0 +1,246 @@
+{
+  "providerProfiles": {
+    "currentApiConfigName": "ProdEng - Beta",
+    "apiConfigs": {
+      "ProdEng - Beta": {
+        "reasoningEffort": "medium",
+        "openAiBaseUrl": {{ onepasswordRead "op://Algolia/AI-Config/openai-endpoint" .onepasswordAccount | quote }},
+        "openAiApiKey": "<<INJECTED_OPENAI_TOKEN>>",
+        "openAiLegacyFormat": true,
+        "openAiModelId": {{ onepasswordRead "op://Algolia/AI-Config/model-id" .onepasswordAccount | quote }},
+        "openAiCustomModelInfo": {
+          "maxTokens": -1,
+          "contextWindow": {{ onepasswordRead "op://Algolia/AI-Config/model-context-window" .onepasswordAccount }},
+          "supportsImages": false,
+          "supportsPromptCache": false,
+          "inputPrice": 0,
+          "outputPrice": 0
+        },
+        "openAiHeaders": {},
+        "apiProvider": "openai",
+        "id": "h3qkkqavmhk"
+      }
+    },
+    "modeApiConfigs": {
+      "architect": "h3qkkqavmhk",
+      "code": "h3qkkqavmhk",
+      "ask": "h3qkkqavmhk",
+      "debug": "h3qkkqavmhk",
+      "orchestrator": "h3qkkqavmhk"
+    },
+    "migrations": {
+      "rateLimitSecondsMigrated": true,
+      "diffSettingsMigrated": true,
+      "openAiHeadersMigrated": true,
+      "consecutiveMistakeLimitMigrated": true,
+      "todoListEnabledMigrated": true,
+      "morphApiKeyMigrated": true
+    }
+  },
+  "globalSettings": {
+    "openRouterImageApiKey": "",
+    "openRouterImageGenerationSelectedModel": "",
+    "kiloCodeImageApiKey": "",
+    "condensingApiConfigId": "",
+    "customCondensingPrompt": "",
+    "yoloMode": false,
+    "yoloGatekeeperApiConfigId": "",
+    "alwaysAllowReadOnly": true,
+    "alwaysAllowReadOnlyOutsideWorkspace": true,
+    "alwaysAllowWrite": true,
+    "alwaysAllowWriteOutsideWorkspace": false,
+    "alwaysAllowWriteProtected": false,
+    "writeDelayMs": 1000,
+    "alwaysAllowBrowser": true,
+    "alwaysApproveResubmit": false,
+    "requestDelaySeconds": 10,
+    "alwaysAllowMcp": true,
+    "alwaysAllowModeSwitch": true,
+    "alwaysAllowSubtasks": true,
+    "alwaysAllowExecute": true,
+    "alwaysAllowFollowupQuestions": false,
+    "followupAutoApproveTimeoutMs": 60000,
+    "alwaysAllowUpdateTodoList": true,
+    "allowedCommands": [],
+    "deniedCommands": [],
+    "autoCondenseContext": true,
+    "autoCondenseContextPercent": 100,
+    "maxConcurrentFileReads": 5,
+    "allowVeryLargeReads": false,
+    "includeCurrentTime": true,
+    "includeCurrentCost": true,
+    "includeDiagnosticMessages": true,
+    "maxDiagnosticMessages": 50,
+    "browserToolEnabled": true,
+    "browserViewportSize": "900x600",
+    "showAutoApproveMenu": false,
+    "showTaskTimeline": true,
+    "sendMessageOnEnter": true,
+    "showTimestamps": true,
+    "hideCostBelowThreshold": 0,
+    "globalWorkflowToggles": {},
+    "screenshotQuality": 75,
+    "remoteBrowserEnabled": true,
+    "enableCheckpoints": true,
+    "checkpointTimeout": 15,
+    "autoPurgeEnabled": false,
+    "autoPurgeDefaultRetentionDays": 30,
+    "autoPurgeCompletedTaskRetentionDays": 30,
+    "autoPurgeIncompleteTaskRetentionDays": 7,
+    "ttsEnabled": false,
+    "ttsSpeed": 1,
+    "soundEnabled": false,
+    "soundVolume": 0.5,
+    "systemNotificationsEnabled": true,
+    "maxOpenTabsContext": 20,
+    "maxWorkspaceFiles": 200,
+    "showRooIgnoredFiles": false,
+    "maxReadFileLine": -1,
+    "maxImageFileSize": 5,
+    "maxTotalImageSize": 20,
+    "terminalOutputLineLimit": 500,
+    "terminalOutputCharacterLimit": 50000,
+    "terminalShellIntegrationTimeout": 5000,
+    "terminalShellIntegrationDisabled": true,
+    "terminalCommandDelay": 0,
+    "terminalPowershellCounter": false,
+    "terminalZshClearEolMark": true,
+    "terminalZshOhMy": false,
+    "terminalZshP10k": false,
+    "terminalZdotdir": false,
+    "terminalCompressProgressBar": true,
+    "experiments": {
+      "morphFastApply": false,
+      "powerSteering": false,
+      "multiFileApplyDiff": false,
+      "preventFocusDisruption": false,
+      "imageGeneration": false,
+      "runSlashCommand": false
+    },
+    "fastApplyModel": "auto",
+    "codebaseIndexModels": {
+      "openai": {
+        "text-embedding-3-small": {
+          "dimension": 1536
+        },
+        "text-embedding-3-large": {
+          "dimension": 3072
+        },
+        "text-embedding-ada-002": {
+          "dimension": 1536
+        }
+      },
+      "ollama": {
+        "nomic-embed-text": {
+          "dimension": 768
+        },
+        "nomic-embed-code": {
+          "dimension": 3584
+        },
+        "mxbai-embed-large": {
+          "dimension": 1024
+        },
+        "all-minilm": {
+          "dimension": 384
+        }
+      },
+      "openai-compatible": {
+        "text-embedding-3-small": {
+          "dimension": 1536
+        },
+        "text-embedding-3-large": {
+          "dimension": 3072
+        },
+        "text-embedding-ada-002": {
+          "dimension": 1536
+        },
+        "nomic-embed-code": {
+          "dimension": 3584
+        }
+      },
+      "gemini": {
+        "text-embedding-004": {
+          "dimension": 768
+        },
+        "gemini-embedding-001": {
+          "dimension": 3072
+        }
+      },
+      "mistral": {
+        "codestral-embed-2505": {
+          "dimension": 1536
+        }
+      },
+      "vercel-ai-gateway": {
+        "openai/text-embedding-3-small": {
+          "dimension": 1536
+        },
+        "openai/text-embedding-3-large": {
+          "dimension": 3072
+        },
+        "openai/text-embedding-ada-002": {
+          "dimension": 1536
+        },
+        "cohere/embed-v4.0": {
+          "dimension": 1024
+        },
+        "google/gemini-embedding-001": {
+          "dimension": 3072
+        },
+        "google/text-embedding-005": {
+          "dimension": 768
+        },
+        "google/text-multilingual-embedding-002": {
+          "dimension": 768
+        },
+        "amazon/titan-embed-text-v2": {
+          "dimension": 1024
+        },
+        "mistral/codestral-embed": {
+          "dimension": 1536
+        },
+        "mistral/mistral-embed": {
+          "dimension": 1024
+        }
+      },
+      "openrouter": {
+        "openai/text-embedding-3-small": {
+          "dimension": 1536
+        },
+        "openai/text-embedding-3-large": {
+          "dimension": 3072
+        },
+        "openai/text-embedding-ada-002": {
+          "dimension": 1536
+        },
+        "google/gemini-embedding-001": {
+          "dimension": 3072
+        },
+        "mistralai/mistral-embed-2312": {
+          "dimension": 1024
+        },
+        "mistralai/codestral-embed-2505": {
+          "dimension": 3072
+        },
+        "qwen/qwen3-embedding-8b": {
+          "dimension": 4096
+        }
+      }
+    },
+    "language": "en",
+    "telemetrySetting": "enabled",
+    "mcpEnabled": true,
+    "mode": "code",
+    "customModes": [],
+    "customSupportPrompts": {},
+    "terminalCommandApiConfigId": "",
+    "ghostServiceSettings": {
+      "enableAutoTrigger": true,
+      "enableQuickInlineTaskKeybinding": true,
+      "enableSmartInlineTaskKeybinding": true
+    },
+    "includeTaskHistoryInEnhance": true,
+    "reasoningBlockCollapsed": true,
+    "profileThresholds": {}
+  }
+}

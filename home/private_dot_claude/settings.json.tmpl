@@ -1,0 +1,14 @@
+{
+  "alwaysThinkingEnabled": true,
+  "env": {
+    "ANTHROPIC_BASE_URL": {{ onepasswordRead "op://Algolia/AI-Config/anthropic-endpoint" .onepasswordAccount | quote }},
+    "ANTHROPIC_MODEL": {{ onepasswordRead "op://Algolia/AI-Config/model-id" .onepasswordAccount | quote }},
+    "CUSTOM_MODEL_CONTEXT": {{ onepasswordRead "op://Algolia/AI-Config/model-context-window" .onepasswordAccount | quote }},
+    "CLAUDE_CODE_DISABLE_TELEMETRY": "1",
+    "CLAUDE_CODE_DISABLE_PROMPT_CACHING": "1",
+    "CLAUDE_CODE_DISABLE_ERROR_REPORTING": "1",
+    "CLAUDE_CODE_DISABLE_FEEDBACK_SURVEY": "1",
+    "CLAUDE_CODE_DISABLE_AUTOUPDATER": "1",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1"
+  }
+}
