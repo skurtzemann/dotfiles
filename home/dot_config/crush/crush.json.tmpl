@@ -8,7 +8,7 @@
     "vllm": {
       "name": "VLLM",
       "type": "openai-compat",
-      "base_url": {{ onepasswordRead "op://Algolia/AI-Config/openai-endpoint-medium" .onepasswordAccount | quote }},
+      "base_url": {{ onepasswordRead "op://Algolia/AI-Config/openai-endpoint" .onepasswordAccount | quote }},
       "api_key": "<<INJECTED_OPENAI_TOKEN>>",
       "models": [
         {
