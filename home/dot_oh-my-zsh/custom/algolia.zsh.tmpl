@@ -20,7 +20,7 @@ function init-infra-cli-dev {
 function ai-get-token {
     AI_TOKEN=$(vault read -field=token identity/oidc/token/enablers)
 
-    CONFIGS=(~/.config/opencode/opencode.json ~/.config/crush/crush.json ~/Work/config/kilo-code-settings.json)
+    CONFIGS=(~/.config/opencode/opencode.json ~/.config/crush/crush.json ~/Work/config/kilo-code-settings.json ~/.claude/settings.json)
     for c in ${CONFIGS[@]}; do
         sed -i '' -e "s/<<INJECTED_OPENAI_TOKEN>>/${AI_TOKEN}/g" $c
     done
