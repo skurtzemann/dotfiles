@@ -24,6 +24,8 @@ function ai-get-token {
     for c in ${CONFIGS[@]}; do
         sed -i '' -e "s/<<INJECTED_OPENAI_TOKEN>>/${AI_TOKEN}/g" $c
     done
+
+    export VIBE_API_KEY=$(echo $AI_TOKEN)
 }
 
 # CLI
