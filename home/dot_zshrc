@@ -83,9 +83,9 @@ export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 
 # Enable Google Cloud SDK
 # - updates PATH for the Google Cloud SDK.
-if [ -f '/Users/sebastien.kurtzemann/google-cloud-sdk-476.0.0/path.zsh.inc' ]; then . '/Users/sebastien.kurtzemann/google-cloud-sdk-476.0.0/path.zsh.inc'; fi
+if [ -f '/Users/sebastien.kurtzemann/google-cloud-sdk-550.0.0/path.zsh.inc' ]; then . '/Users/sebastien.kurtzemann/google-cloud-sdk-550.0.0/path.zsh.inc'; fi
 # - enables shell command completion for gcloud.
-if [ -f '/Users/sebastien.kurtzemann/google-cloud-sdk-476.0.0/completion.zsh.inc' ]; then . '/Users/sebastien.kurtzemann/google-cloud-sdk-476.0.0/completion.zsh.inc'; fi
+if [ -f '/Users/sebastien.kurtzemann/google-cloud-sdk-550.0.0/completion.zsh.inc' ]; then . '/Users/sebastien.kurtzemann/google-cloud-sdk-550.0.0/completion.zsh.inc'; fi
 
 # Enable GVM
 [[ -s "/Users/sebastien.kurtzemann/.gvm/scripts/gvm" ]] && source "/Users/sebastien.kurtzemann/.gvm/scripts/gvm"
