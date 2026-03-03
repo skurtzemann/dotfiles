@@ -1,7 +1,7 @@
 [user]
 	name = Sébastien Kurtzemann
 	email = sebastien.kurtzemann@algolia.com
-    signingkey = B664018F5E04CA3A
+	signingkey = B664018F5E04CA3A
 
 [commit]
 	gpgsign = true
