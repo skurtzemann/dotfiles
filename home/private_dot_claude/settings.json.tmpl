@@ -1,8 +1,13 @@
 {
   "env": {
-    "ANTHROPIC_BASE_URL": {{ onepasswordRead "op://Algolia/AI-Config/anthropic-endpoint" .onepasswordAccount | quote }},
-    "ANTHROPIC_MODEL": {{ onepasswordRead "op://Algolia/AI-Config/model-id" .onepasswordAccount | quote }},
+    "ANTHROPIC_BASE_URL": {{ onepasswordRead "op://Algolia/AI-Config/endpoint-inference" .onepasswordAccount | quote }},
     "ANTHROPIC_AUTH_TOKEN": "<<INJECTED_OPENAI_TOKEN>>",
+    "ANTHROPIC_MODEL": {{ onepasswordRead "op://Algolia/AI-Config/model-size-id" .onepasswordAccount | quote }},
+    "ANTHROPIC_SMALL_FAST_MODEL": {{ onepasswordRead "op://Algolia/AI-Config/model-size-id" .onepasswordAccount | quote }},
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": {{ onepasswordRead "op://Algolia/AI-Config/model-size-id" .onepasswordAccount | quote }},
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": {{ onepasswordRead "op://Algolia/AI-Config/model-size-id" .onepasswordAccount | quote }},
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": {{ onepasswordRead "op://Algolia/AI-Config/model-size-id" .onepasswordAccount | quote }},
+    "API_TIMEOUT_MS": "3000000",
     "CUSTOM_MODEL_CONTEXT": {{ onepasswordRead "op://Algolia/AI-Config/model-context-window" .onepasswordAccount | quote }},
     "CLAUDE_CODE_DISABLE_TELEMETRY": "1",
     "CLAUDE_CODE_DISABLE_PROMPT_CACHING": "1",
