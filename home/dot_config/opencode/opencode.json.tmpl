@@ -25,6 +25,14 @@
     }
   },
   "mcp": {
+    "Atlas": {
+        "enabled": false,
+        "type": "local",
+        "command": [ {{ onepasswordRead "op://Algolia/Atlas/command" .onepasswordAccount | quote }} ],
+        "environment": {
+            "ATLAS_SSH_CONFIG": {{ onepasswordRead "op://Algolia/Atlas/ssh-config" .onepasswordAccount | quote }}
+        }
+    },
     "Brave": {
         "enabled": true,
         "type": "local",
@@ -54,6 +62,10 @@
             "run",
             "-i",
             "--rm",
+            "-e", "JIRA_URL",
+            "-e", "JIRA_USERNAME",
+            "-e", "JIRA_API_TOKEN",
+            "-e", "JIRA_PROJECTS_FILTER",
             "-e", "CONFLUENCE_URL",
             "-e", "CONFLUENCE_USERNAME",
             "-e", "CONFLUENCE_API_TOKEN",
@@ -62,6 +74,10 @@
             "ghcr.io/sooperset/mcp-atlassian:0.21.0",
         ],
         "environment": {
+            "JIRA_URL": {{ onepasswordRead "op://Algolia/Atlassian/jira-url" .onepasswordAccount | quote }},
+            "JIRA_USERNAME": {{ onepasswordRead "op://Algolia/Atlassian/jira-username" .onepasswordAccount | quote }},
+            "JIRA_API_TOKEN": {{ onepasswordRead "op://Algolia/Atlassian/jira-api-token" .onepasswordAccount | quote }},
+            "JIRA_PROJECTS_FILTER": "SRE",
             "CONFLUENCE_URL": {{ onepasswordRead "op://Algolia/Atlassian/confluence-url" .onepasswordAccount | quote }},
             "CONFLUENCE_USERNAME": {{ onepasswordRead "op://Algolia/Atlassian/confluence-username" .onepasswordAccount | quote }},
             "CONFLUENCE_API_TOKEN": {{ onepasswordRead "op://Algolia/Atlassian/confluence-api-token" .onepasswordAccount | quote }},
